@@ -529,7 +529,7 @@ void main() {
         }
 
         if (blockId == BLOCK_GLOW_LICHEN || blockId == ITEM_GLOW_LICHEN) {
-            lightColor = vec3(0.1, 0.2, 0.12);
+            lightColor = vec3(0.07, 0.11, 0.09);
             lightRange = 7.0;
         }
 
