@@ -833,6 +833,16 @@ void main() {
                     break;
             }
         }
+        
+        if (blockId == BLOCK_BLUEISH_LIGHT) {
+            lightColor = vec3(0.08, 0.09, 0.12);
+            lightRange = 10.0;
+        }
+
+        if (blockId == BLOCK_PINKISH_LIGHT) {
+            lightColor = vec3(0.14, 0.08, 0.09);
+            lightRange = 8.0;
+        }
 
         // reflective translucents / glass
 
